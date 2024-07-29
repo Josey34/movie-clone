@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const movieBaseUrl = "https://api.themoviedb.org/3"
-const api_key = '17f801ac53308e9096de820b48dbfb73'
+const api_key = import.meta.env.VITE_api_key
 
 //?https://api.themoviedb.org/3/movie/popular?api_key=17f801ac53308e9096de820b48dbfb73
 
